@@ -1,0 +1,9 @@
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary and backup files
+*.bak
+*.tmp
+*.temp

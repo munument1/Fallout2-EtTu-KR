@@ -1,0 +1,6 @@
+# Enforce CRLF line endings for message and text files to ensure game compatibility on Windows
+*.msg text eol=crlf
+*.txt text eol=crlf
+*.ini text eol=crlf
+*.sve text eol=crlf
+*.bio text eol=crlf
