@@ -94,6 +94,7 @@
 - [폴아웃 에투 소개서 (docs/ettu-readme.md)](docs/ettu-readme.md)
 - [폴아웃 에투 세부 설명서 (docs/ettu-mod-readme.md)](docs/ettu-mod-readme.md)
 - [변경 사항 이력 (docs/NEWS.md)](docs/NEWS.md)
+- * SFall 한글호환패치 [소스코드](https://github.com/munument1/Unofficial-KR-Sfall)
 
 ---
 
@@ -101,3 +102,4 @@
 
 이 멋진 프로젝트가 탄생하고 유지될 수 있도록 아낌없이 도와주신 NovaRain 님과 Mr.Stalin 님께 깊은 감사를 전합니다.
 또한, 한국어 번역 작업을 위해 함께해 주시는 모든 번역가분들의 노고에 진심으로 감사드립니다.
+
