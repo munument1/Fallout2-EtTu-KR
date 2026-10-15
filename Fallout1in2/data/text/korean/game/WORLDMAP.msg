@@ -159,7 +159,7 @@
 # Worldmap Encounter messages
 #
 # Original is "You encounter:"
-{2998}{}{인카운터 시작. --- Sfall에 의해 비활성화됨 ---}
+{2998}{}{}
 # Original is "Do you wish to avoid:"
 {2999}{}{인카운터! 조사하겠습니까?}
 
