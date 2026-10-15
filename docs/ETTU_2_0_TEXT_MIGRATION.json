@@ -1,0 +1,140 @@
+{
+  "baseline_before": "EtTu 1.16.3771",
+  "baseline_after": "EtTu 2.0.3911",
+  "official_archive_sha256": "e94873abd8e0510f1dd4ae17e73117e9cb099e7700595273acc007e1184c50e7",
+  "reviewed_english_records": 9,
+  "added_korean_records": 4,
+  "updated_korean_records": 2,
+  "retained_equivalent_translations": 3,
+  "changed_translation_files": [
+    "Fallout1in2/data/text/korean/dialog/GENCHAT.msg",
+    "Fallout1in2/data/text/korean/dialog/IRWIN.msg",
+    "Fallout1in2/data/text/korean/game/WORLDMAP.msg",
+    "Fallout1in2/data/text/korean/game/MISC.msg"
+  ],
+  "all_other_translation_files_byte_identical": true,
+  "all_other_korean_msg_records_unchanged": true,
+  "reviewed": [
+    {
+      "file": "Fallout1in2/data/text/korean/dialog/GENCHAT.msg",
+      "id": 194,
+      "action": "added",
+      "korean_before": null,
+      "korean_after": "너 비켜! 내 길 막아! *찡그림*"
+    },
+    {
+      "file": "Fallout1in2/data/text/korean/dialog/GENCHAT.msg",
+      "id": 195,
+      "action": "added",
+      "korean_before": null,
+      "korean_after": "가 가. 친구 필요 없어."
+    },
+    {
+      "file": "Fallout1in2/data/text/korean/dialog/GENCHAT.msg",
+      "id": 196,
+      "action": "added",
+      "korean_before": null,
+      "korean_after": "우리 친구 할래?"
+    },
+    {
+      "file": "Fallout1in2/data/text/korean/dialog/GENCHAT.msg",
+      "id": 211,
+      "action": "added",
+      "korean_before": null,
+      "korean_after": "이 대상에게서는 훔칠 수 없습니다."
+    },
+    {
+      "file": "Fallout1in2/data/text/korean/dialog/IRWIN.msg",
+      "id": 2000,
+      "action": "updated",
+      "korean_before": "먼저, 허브를 떠나자마자 주요 도로를 따라 동쪽으로 몇 마일 가면 오래된 기차역이 나올 겁니다. 거기서 남쪽으로 돌면 오래된 쿠퍼 농장이 보여요 (못 찾을 리 없죠). 그걸 지나서...",
+      "korean_after": "먼저, 허브를 떠나자마자 주요 도로를 따라 동쪽으로 몇 마일 가서 오래된 기차역을 지나세요. 거기서 남쪽으로 돌아 오래된 농장을 지나면..."
+    },
+    {
+      "file": "Fallout1in2/data/text/korean/dialog/IRWIN.msg",
+      "id": 2002,
+      "action": "retained_equivalent_translation",
+      "korean_before": "[어윈이 아주 상세하게 길을 설명합니다. 너무 상세해서 잠이 올 지경입니다. 몇 분이 흐른 뒤에야 겨우 핍보이에 경로를 표시했습니다]",
+      "korean_after": "[어윈이 아주 상세하게 길을 설명합니다. 너무 상세해서 잠이 올 지경입니다. 몇 분이 흐른 뒤에야 겨우 핍보이에 경로를 표시했습니다]"
+    },
+    {
+      "file": "Fallout1in2/data/text/korean/dialog/SETH.msg",
+      "id": 2100,
+      "action": "retained_equivalent_translation",
+      "korean_before": "[세스가 알려준 길을 따라 핍보이 지도에 동굴 위치를 표시했습니다]",
+      "korean_after": "[세스가 알려준 길을 따라 핍보이 지도에 동굴 위치를 표시했습니다]"
+    },
+    {
+      "file": "Fallout1in2/data/text/korean/dialog/SLAPPY.msg",
+      "id": 2200,
+      "action": "retained_equivalent_translation",
+      "korean_before": "[슬래피의 설명을 이해하는 데 한참 걸렸지만, 결국 허브 서쪽의 산맥이라는 것을 알아냈습니다]",
+      "korean_after": "[슬래피의 설명을 이해하는 데 한참 걸렸지만, 결국 허브 서쪽의 산맥이라는 것을 알아냈습니다]"
+    },
+    {
+      "file": "Fallout1in2/data/text/korean/game/WORLDMAP.msg",
+      "id": 2998,
+      "action": "updated",
+      "korean_before": "인카운터 시작. --- Sfall에 의해 비활성화됨 ---",
+      "korean_after": ""
+    },
+    {
+      "file": "Fallout1in2/data/text/korean/game/MISC.msg",
+      "id": 9,
+      "action": "localized_existing_menu_gap",
+      "korean_before": "INTRO",
+      "korean_after": "인트로"
+    },
+    {
+      "file": "Fallout1in2/data/text/korean/game/MISC.msg",
+      "id": 10,
+      "action": "localized_existing_menu_gap",
+      "korean_before": "NEW GAME",
+      "korean_after": "새 게임"
+    },
+    {
+      "file": "Fallout1in2/data/text/korean/game/MISC.msg",
+      "id": 11,
+      "action": "localized_existing_menu_gap",
+      "korean_before": "LOAD",
+      "korean_after": "게임 불러오기"
+    },
+    {
+      "file": "Fallout1in2/data/text/korean/game/MISC.msg",
+      "id": 12,
+      "action": "localized_existing_menu_gap",
+      "korean_before": "OPTION",
+      "korean_after": "옵션"
+    },
+    {
+      "file": "Fallout1in2/data/text/korean/game/MISC.msg",
+      "id": 13,
+      "action": "localized_existing_menu_gap",
+      "korean_before": "CREDIT",
+      "korean_after": "크레딧"
+    },
+    {
+      "file": "Fallout1in2/data/text/korean/game/MISC.msg",
+      "id": 14,
+      "action": "localized_existing_menu_gap",
+      "korean_before": "EXIT",
+      "korean_after": "종료"
+    }
+  ],
+  "file_hashes_before": {
+    "Fallout1in2/data/text/korean/dialog/GENCHAT.msg": "3719845ed3b846d12d212cd2f643f33a12ea15aaa04c4ac7fea672e79b8d598e",
+    "Fallout1in2/data/text/korean/dialog/IRWIN.msg": "304380c9573481ddfee0aee6fa51fd5a565edb4d6a1754e3bfae02a2534737ce",
+    "Fallout1in2/data/text/korean/game/WORLDMAP.msg": "ddd43cb8fb87bd7e74e5ee78bd1dff236966cd4e837b6396648288f13f7fdb77",
+    "Fallout1in2/data/text/korean/game/MISC.msg": "98acd830f1eb9b5ec595048749c809f28da9f9c6d8a6f5f6f902121b984e467a"
+  },
+  "file_hashes_after": {
+    "Fallout1in2/data/text/korean/dialog/GENCHAT.msg": "c9de8b9a5a5f69ad6af250a225a78cfb19b8ff239a524ff31f92f9e5dcd61113",
+    "Fallout1in2/data/text/korean/dialog/IRWIN.msg": "c0ae684017e6077c4c2dfc695406bf87567fea8a943f899bc033fe149bc97732",
+    "Fallout1in2/data/text/korean/game/WORLDMAP.msg": "60decfe655af4682a40f94c0b4f41e3dc8b21450f4347b6f4077aee51e21cfb2",
+    "Fallout1in2/data/text/korean/game/MISC.msg": "eb9d7870f606ec2631025c493fab08775eec3446a75ee2ae3e330ccd9b1d7444"
+  },
+  "scope": "Reviewed upstream English MSG delta plus six existing English menu labels found during user screen verification. Original audio and other Korean records retained.",
+  "existing_menu_labels_localized": 6,
+  "menu_note": "User found English menu labels during 2.0 screen check; six labels were already English in the existing Korean MISC.msg.",
+  "final_preservation_audit": "passed against pre-upgrade Git HEAD; only four translation files and twelve allowed record IDs differ; all audio fields unchanged"
+}

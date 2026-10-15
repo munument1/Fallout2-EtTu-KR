@@ -1,12 +1,14 @@
 # 에투 한국어 번역 — 공통 출력 엔진 방식
 
-기준: **EtTu 1.16.3771**. 이번 변경은 기존 번역의 출력 방식 전환이며 원본 모드 버전 업그레이드가 아니다.
+기준: **EtTu 2.0.3911**. 1.16.3771의 기존 한국어 번역을 유지하고, 2.0에서 달라진 문구만 반영한다. 출력은 공식 sfall 4.5.1과 공통 한국어 출력 모듈을 사용한다.
 
 한국어 번역 데이터는 이 저장소에서, 출력 모듈·글꼴·설치 도구는 [Fallout2 Korean Text Engine](https://github.com/munument1/Fallout2-Korean-Text-Engine)에서 관리한다. 한국어로 수정한 sfall `ddraw.dll`을 덮어쓰는 방식에서 공식 sfall과 별도 한국어 모듈을 사용하는 방식으로 전환한다.
 
 ## 현재 상태
 
-공식 sfall 4.5.1과 별도 한국어 출력 모듈로 기존 설치본의 선택 화면을 확인했다. 전체 UI·장시간 플레이 또는 미래 sfall 버전의 검증을 뜻하지 않는다.
+EtTu 2.0.3911의 독립 시험본에서 사용자가 확인한 본문·줄바꿈이 정상이라고 확인했고, 영어로 남아 있던 메뉴를 보완한 뒤 한국어 메뉴·배치도 정상이라고 확인했다. 공식 sfall 4.5.1은 그대로 유지했다. 전체 UI·장시간 플레이 검증을 뜻하지 않는다.
+
+[2.0 이행 내역](docs/ETTU_2_0_UPGRADE_KO.md)에 변경 ID와 번역 보존 범위를 기록했다.
 
 기존 릴리스와 태그는 보존한다. 새 방식은 이 PR의 구성과 GitHub Actions에서 생성한 `korean-classic-data` 산출물을 기준으로 확인한다. 새 방식의 정식 릴리스가 발행됐다고 표시하지 않는다.
 
@@ -32,7 +34,7 @@ python tools/build_translation.py --output dist/korean-classic-data.zip
 
 ## CE/Fission
 
-이 안내와 패키지는 클래식 x86/sfall 경로용이다. 기존 CE/Fission 지원은 [별도 엔진 저장소](https://github.com/munument1/Fallout2-Fission-CE-KR)를 따른다. CE 호환 결과를 이번 클래식 시험에서 승계하지 않는다. 저장소의 CE용 글꼴 파일은 보존하지만 클래식 번역 ZIP에 넣지 않는다.
+이 안내와 패키지는 클래식 x86/sfall 경로용이다. EtTu 2.0에 동봉된 CE 실행 파일의 한국어 출력은 이번 클래식 시험 범위에 포함하지 않는다. 기존 CE/Fission 자료는 [별도 엔진 저장소](https://github.com/munument1/Fallout2-Fission-CE-KR)에 있으며 2.0 지원을 자동 승계하지 않는다. 저장소의 CE용 글꼴 파일은 보존하지만 클래식 번역 ZIP에 넣지 않는다.
 
 ## 이전 배포 방식과 크레디트
 
