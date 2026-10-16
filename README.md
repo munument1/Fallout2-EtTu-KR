@@ -10,17 +10,17 @@ EtTu 2.0.3911의 독립 시험본에서 사용자가 확인한 본문·줄바꿈
 
 [2.0 이행 내역](docs/ETTU_2_0_UPGRADE_KO.md)에 변경 ID와 번역 보존 범위를 기록했다.
 
-기존 릴리스와 태그는 보존한다. 새 방식은 이 PR의 구성과 GitHub Actions에서 생성한 `korean-classic-data` 산출물을 기준으로 확인한다. 새 방식의 정식 릴리스가 발행됐다고 표시하지 않는다.
+배포: **[EtTu 2.0.3911 KR 1.0](https://github.com/munument1/Fallout2-EtTu-KR/releases/tag/v2.0.3911-KR1.0)**. 릴리스의 번역 ZIP과 공통 출력 엔진 ZIP을 함께 사용한다. 기존 1.16 릴리스와 태그는 보존한다.
 
 ## 설치
 
-1. 위 기준의 원본 모드를 별도 게임 복사본에 설치한다. 원본 모드의 스크립트·설정·DAT를 유지한다.
-2. 공식 sfall 4.5.1을 해당 모드에 준비한다. 기존 한국어 패치의 `ddraw.dll`·`LangFont.ini`를 새 번역 ZIP에서 복사하지 않는다.
-3. [공통 엔진 설치 안내](https://github.com/munument1/Fallout2-Korean-Text-Engine#설치)를 따른다. 프로필은 `ettu`이다.
-4. 이 저장소의 새 방식 번역 ZIP을 **실제 모드 실행 파일이 있는 폴더**에 적용한다. 에투라면 Fallout1in2 폴더다. 번역 ZIP에는 엔진 DLL·EXE·모드 스크립트·전체 CFG를 넣지 않는다.
+1. [공식 EtTu 2.0.3911](https://github.com/rotators/Fo1in2/releases/tag/v2.0.3911)을 별도 게임 복사본에 설치하고, 공식 UNDAT 도구로 보유한 Fallout 1의 원본 자산을 가져온다. 원본 모드의 스크립트·설정·DAT를 유지한다.
+2. EtTu에 포함된 공식 sfall 4.5.1 `ddraw.dll`과 `sfall.dat`를 그대로 사용한다. 이전 한패의 `ddraw.dll`·`LangFont.ini`를 덮어쓰지 않는다.
+3. 릴리스의 `korean-text-engine-1.1-profile4.zip`을 게임 밖의 도구 폴더에 풀고, [동봉 설치 안내](docs/NEW_ENGINE_KO.md)에 따라 공통 엔진의 `ettu` 프로필을 설치한다. Python과 별도 보유 CJK 입력 파일이 필요하며, 번역 ZIP만으로 출력 엔진이 설치되지는 않는다.
+4. `FO1ET.TU.KOR-v2.0.3911-KR1.0-classic-data.zip`을 **Fallout1in2 폴더**에 푼다. ZIP의 `data`, `Appearance`, `translations`가 해당 폴더 바로 아래에 위치해야 한다. 번역 ZIP에는 엔진 DLL·EXE·모드 스크립트·전체 CFG를 넣지 않는다.
 5. `Fallout2.cfg`에서 `[system] language=korean`을 사용한다. 다른 설정은 유지한다.
 
-[모드별 설치와 메뉴 설정](docs/NEW_ENGINE_KO.md).
+[자세한 설치와 메뉴 설정](docs/NEW_ENGINE_KO.md). 실행 파일은 클래식 `Fallout2.exe`이며, 동봉 `fallout2-ce.exe`는 이번 릴리스의 검증 대상이 아니다. 릴리스의 `SHA256SUMS.txt`로 첨부 ZIP을 확인할 수 있다.
 
 ## 번역 파일과 패키지
 
@@ -30,7 +30,7 @@ EtTu 2.0.3911의 독립 시험본에서 사용자가 확인한 본문·줄바꿈
 python tools/build_translation.py --output dist/korean-classic-data.zip
 ```
 
-패키지에 포함한 파일 해시와 변환 목록은 `translation-manifest.json`에 들어간다. RPU의 mods 내 한국어 폴더는 배포 ZIP에서 data 아래에 합쳐 로드 순서 설정의 누락을 피한다. 게임 데이터의 언어를 중국어나 일본어로 바꾸지 않는다.
+패키지에 포함한 파일 해시와 변환 목록은 `translation-manifest.json`에 들어간다. 게임 데이터의 언어를 중국어나 일본어로 바꾸지 않는다.
 
 ## CE/Fission
 
