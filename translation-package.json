@@ -3,7 +3,6 @@
   "mod": "에투",
   "baseline": "EtTu 2.0.3911",
   "engine_repository": "https://github.com/munument1/Fallout2-Korean-Text-Engine",
-  "engine_profile": "ettu",
   "engine_validation": "EtTu 2.0.3911 selected text screens passed; Korean menu labels supplemented and user confirmed menu language/layout; official sfall 4.5.1 unchanged",
   "sources": [
     {
@@ -26,5 +25,8 @@
     "data/premade/stealth.bio"
   ],
   "previous_baseline": "EtTu 1.16.3771",
-  "upstream_mod_upgraded": true
+  "upstream_mod_upgraded": true,
+  "engine_mode": "native-structural",
+  "engine_minimum_release": "v1.2.0-beta.1",
+  "requires_cjk_binaries": false
 }
