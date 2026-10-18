@@ -27,6 +27,6 @@
   "previous_baseline": "EtTu 1.16.3771",
   "upstream_mod_upgraded": true,
   "engine_mode": "native-structural",
-  "engine_minimum_release": "v1.2.0-beta.2",
+  "engine_minimum_release": "v1.2.1",
   "requires_cjk_binaries": false
 }
